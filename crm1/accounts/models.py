@@ -18,8 +18,8 @@ class Tag(models.Model):
         return self.name
 class Product(models.Model):
     CATEGORY = (
-            ('Indoor', 'Indoor'),
-            ('Outdoor', 'Outdoor'),
+            ('In Door', 'In Door'),
+            ('Out Door', 'Out Door'),
     )
 
     name = models.CharField(max_length=50, null=True)
